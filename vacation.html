@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zanzibar</title>
+    <style>
+        *{
+            margin: 0;
+            padding-left: 0;
+           box-sizing:border-box ;
+            font-family:'Poppins', sans-serif ;
+            background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+        }
+        h1{
+            text-align: center;
+            font-family:monospace;
+            font-size: 150px;
+           color: rgb(29, 115, 236);
+        }
+        h2{
+            text-align: center;
+            font-family:monospace;
+            font-size: 45px;
+        }
+        p{
+            text-align: center;
+            font-family: Brush Script MT, cursive;
+            font-size: 25px;
+        }
+        .photo-gallery{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-gap: 10px;
+        }
+        img{
+        width: 400px;
+        border-radius: 20px;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+       
+      }
+      button{
+            display: block;
+            margin: 0 auto;
+            border: 15px #4d42ed;
+            background:#938df0;
+            font-size: 24px;
+            border-radius: 16px;
+            padding: 10px 15px;
+            transition: all 200ms ease-in-out;
+        }
+        button:hover{
+            background: #4d42ed;
+            cursor: pointer;
+        }
+        footer{
+            text-align: center;
+            margin: 15px 0;
+            font-size: 20px;
+        }
+        .container{
+            max-width: 900px;
+            margin: 25px auto;
+            background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkuAC6hFVEFQmnefZN2pLfZlOffcZApSmKLA&s");
+            background-repeat:repeat ;
+            background-size: 1000px 1000px;;
+            padding: 20px;
+            border-radius: 15px;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>
+        Zanzibar
+    </h1>
+        <h2 class="title">Zanzibar gallery</h2>
+
+        <div class="photo-gallery">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/442/original/Airport.jpg?1743978242">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/443/original/resort.jpg?1743978511">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/778/original/resort_1.jpg?1744317435">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/779/original/resort_2.jpg?1744317456">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/780/original/restaurant_%282%29.jpg?1744317470">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/446/original/restaurant.jpg?1743980649">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/441/original/pexels-keeganjchecks-29889199.jpg?1743977850">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/772/original/food_%282%29.jpg?1744317328">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/769/original/drink.jpg?1744317289">
+                    <img src= "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/768/original/drink_1.jpg?1744317277">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/447/original/outing.jpg?1743981114">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/775/original/night_life.jpg?1744317389">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/771/original/flower_2.jpg?1744317319">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/770/original/flower_1.jpg?1744317298">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/776/original/random_girl.jpg?1744317402">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/786/original/spa_1.jpg?1744317590">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/787/original/spa_2.jpg?1744317608">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/783/original/sea_shells.jpg?1744317545">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/784/original/sea.jpg?1744317560">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/785/original/ship_port.jpg?1744317574">
+                   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/773/original/horse_in_sea.jpg?1744317344">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/774/original/men_in_sea.jpg?1744317353">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/767/original/car_2.jpg?1744317269">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/766/original/car_1.jpg?1744317263">
+                   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/781/original/safari_ride_%282%29.jpg?1744317492">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/782/original/safari_ride.jpg?1744317519">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/444/original/safari.jpg?1743980068">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/765/original/boat_sculpture.jpg?1744317254">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/763/original/beach_1.jpg?1744317234">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/764/original/beach_2.jpg?1744317245">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/788/original/woman_cleaning_1.jpg?1744317625">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/789/original/woman_cleaning_2.jpg?1744317636">
+                    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/445/original/women_fishing.jpg?1743980370">
+                 </div>
+    <br>
+    <div class="container">
+    <p>
+        Zanzibar, a land of sun and sea,
+Where turquoise waters kiss the golden beach,
+A paradise where time seems to flee,
+And the whispers of history softly reach.
+
+The spice-scented air dances on the breeze,
+As palm trees sway in a rhythmic song,
+In every corner, a tale of seas,
+Of traders and legends that still belong.
+
+Stone Town’s streets, with their winding ways,
+Echo the footsteps of ancient days,
+The carved doors tell stories untold,
+Of love and conflict, of riches and gold.
+
+The dhow sails gently on the horizon's edge,
+Catching the sun's final golden pledge,
+While the moon rises with a gentle glow,
+Over the waves that ebb and flow.
+
+Zanzibar, a jewel in the Indian Sea,
+A place where hearts feel wild and free,
+A world where beauty and history meet,
+In every sunset, every heartbeat.
+    </p>
+   </div> 
+    <button class="explorezanzibar">
+        Enjoy the sandy beach!!!
+    </button>
+</div>
+<footer>
+        Coded with 💜 by Wadzanai Chiromo
+    </footer>
+
+<script>
+       function apply(){
+        let name = prompt("What is your full name?");
+        alert("Thank you"+" " + name +" "+ ",enjoy Zanzibar.😊❤️")
+      }
+      
+        
+      let invitationButton = document.querySelector(".explorezanzibar");
+      invitationButton.addEventListener("click", apply);;
+</script>
+</body>
+</html>
